@@ -13,7 +13,7 @@ $(document).ready(function() {
 	var hotdog = {
 		//在鼠标点击处生成热狗并发射；
 		fire: function() {
-			var position = getMousePos();
+			var position = pos;
 			var posX = (1111 - position[0]) + 'px';
 			var posY = position[1] + 'px';
 			var $hotdog = $('<div>');
@@ -44,13 +44,13 @@ $(document).ready(function() {
 	//取得鼠标的位置信息；
 	function getMousePos(event) {
 		var e = event || window.event;
-		var pos = [0, 0];
+		pos = [0, 0];
 		pos[0] = e.clientX;
 		pos[1] = e.clientY;
-		return pos;
 	}
 	//鼠标在firezone区域时点击后生成热狗发射出去；
-	$('#firezone').on('click', function() {
+	$('#firezone').on('click', function(e) {
+		getMousePos(e);
 		//hotdog.produce();
 		hotdog.fire();
 	});
