@@ -53,10 +53,10 @@ $(document).ready(function() {
 	$('#firezone').on('click', function() {
 		//hotdog.produce();
 		hotdog.fire();
-	})
+	});
 	$('#start').on('click', function() {
 		wangsicong.move();
-	})
+	});
 	/*var hotdogPosX = $('#hotdog').offset().left;
 	var hotdogPosY = $('#hotdog').offset().top;
 	var wangsicongPosX = $('#wangsicong').offset().left;
