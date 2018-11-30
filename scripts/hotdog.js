@@ -48,14 +48,19 @@ $(document).ready(function() {
 		pos[0] = e.clientX;
 		pos[1] = e.clientY;
 	}
+	begin = false;
 	//鼠标在firezone区域时点击后生成热狗发射出去；
 	$('#firezone').on('click', function(e) {
-		getMousePos(e);
+		if(begin) {
+			getMousePos(e);
 		//hotdog.produce();
-		hotdog.fire();
+			hotdog.fire();
+		}
+		
 	});
 	$('#start').on('click', function() {
 		wangsicong.move();
+		begin = true;
 	});
 	/*var hotdogPosX = $('#hotdog').offset().left;
 	var hotdogPosY = $('#hotdog').offset().top;
