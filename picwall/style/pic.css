@@ -15,8 +15,8 @@ li {
 	list-style: none;
 }
 input {
-	width: 80px;
-	font-size: 18px;
+	width: 90px;
+	font-size: 14px;
 }
 input:hover {
 	cursor: pointer;
