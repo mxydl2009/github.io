@@ -45,13 +45,13 @@ Drag.prototype.init = function(options) {
 	this.dragEle['posY'] = this.dragEle.offsetTop;
 	this.dragEle.onmousedown = function(e) {
 		var e = e || window.event;
+		ev.preventDefault();
 		that.disX =  e.clientX - that.dragEle.offsetLeft;
 		that.disY = e.clientY - that.dragEle.offsetTop;
 		var colArr = [];//存储碰撞到的其他元素；
 		var eleCol = null;//存储碰撞到的离的最近的元素；
 		document.onmousemove = function(ev) {
 			var ev = ev || window.event;
-			ev.preventDefault();
 			that.dragEle.style.zIndex = 6;
 			that.dragEle.style.left = (ev.clientX - that.disX) + 'px';
 			that.dragEle.style.top = (ev.clientY - that.disY) + 'px';	
