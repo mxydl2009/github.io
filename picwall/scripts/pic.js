@@ -45,7 +45,7 @@ Drag.prototype.init = function(options) {
 	this.dragEle['posY'] = this.dragEle.offsetTop;
 	this.dragEle.onmousedown = function(e) {
 		var e = e || window.event;
-		ev.preventDefault();
+		e.preventDefault();
 		that.disX =  e.clientX - that.dragEle.offsetLeft;
 		that.disY = e.clientY - that.dragEle.offsetTop;
 		var colArr = [];//存储碰撞到的其他元素；
