@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	width: 660px;
+	height: 660px;
+	margin: 10px auto;
+}
+li {
+	width: 200px;
+	height: 150px;
+	margin: 10px 10px;
+	float: left;
+	list-style: none;
+}
+input {
+	width: 80px;
+	font-size: 18px;
+}
+input:hover {
+	cursor: pointer;
+}
