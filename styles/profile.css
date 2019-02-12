@@ -2,6 +2,9 @@ hr {
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
+#left hr {
+	color: white;
+}
 /*表格样式*/
 table tr td:first-child {
 	width: 110px;
