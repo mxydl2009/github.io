@@ -9,7 +9,7 @@ table tr td:first-child {
 	vertical-align: top;
 }
 /*内容部分样式*/
-#content {
+#resume {
 	background-color: #eee;
 	width: 960px;
 	margin: 0 auto 0 auto;
@@ -46,14 +46,17 @@ table tr td:first-child {
 	margin: 10px auto 0px auto;
 }
 .content {
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .content strong {
 	margin-left: 10px;
 }
-.content table {
+#left div.content table {
 	width: 230px;
+}
+#left div.content table td:first-child {
+	width: 70px;
 }
 /*右边栏样式*/
 #right {
