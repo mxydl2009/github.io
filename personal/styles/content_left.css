@@ -1,0 +1,41 @@
+/*内容区样式表*/
+/*左边栏样式表*/
+.left {
+	width: 180px;
+	float: left;
+	border: 1px solid black;
+	padding: 0px 0px 0px 0px;
+	/*font-family: STHeiti, Helvetica;*/
+}
+.left a {
+	font-size: 0.8em;
+}
+.left h3 {
+	height: 30px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 0.9em;
+	/*line-height: 30px;*/
+	background-color: grey;
+	position: relative;
+}
+.left h3 span {
+	margin-left: 10px;
+	position: absolute;
+	top: 8px;
+}
+.goodslist {
+	margin: 10px;
+}
+.goodslist h4 {
+	color: black;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #EDEDED;
+}
+.goodslist table tr td:first-child {
+	width: 70px;
+	height: 23px;
+}
+.hot a {
+	color: red;
+}

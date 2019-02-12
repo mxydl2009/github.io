@@ -1,0 +1,16 @@
+/*包含全局样式表*/
+@import url('reset.css');
+/*包含首部样式表*/
+@import url('header.css');
+/*包含内容区左边栏样式表*/
+@import url('content_left.css');
+/*包含内容区右边栏样式表*/
+@import url('content_right_shirt.css');
+/*包含页脚样式表*/
+@import url('footer.css');
+/*包含打分星星样式表*/
+@import url('rating.css');
+
+#shirt a {
+	color: blue;
+}

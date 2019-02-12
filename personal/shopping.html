@@ -1,0 +1,201 @@
+<!-- 购物网站的主页 
+	页面顶部放置网站品牌信息、logo、导航栏等
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jane Shopping</title>
+	<link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+	<header id="header">
+		<div class="headcontent">
+			<div id="logo">
+				<a href="#"><img src="images/logo.gif" alt="Jane Shopping Logo" title="Jane Shopping"></a>
+			</div>
+			<!-- logo图放在超链接里，点击后重新加载本页面 -->
+			<form action="">
+				<div id="searchbox">
+					<select name="" id="selectbox">
+						<option value="All" selected="selected">All</option>
+						<option value="womenClother">女装</option>
+						<option value="menClother">男装</option>
+						<option value="shoesbags">鞋包配饰</option>
+					</select>
+					<input type="search" maxlength="50" placeholder="请输入商品名称" id="search">
+					<!-- 背景图设为search图标 -->
+					<div id="submit"></div>
+				</div>
+			</form>
+			<ul id="skin">
+				<li id="skin_0"></li>
+				<li id="skin_1"></li>
+				<li id="skin_2"></li>
+				<li id="skin_3"></li>
+				<li id="skin_4"></li>
+				<li id="skin_5"></li>
+			</ul>
+			<nav>
+				<ul id="nav">
+					<li><a href="">首页</a></li>
+					<li><a href="">品牌</a></li>
+					<li><a href="">女装</a></li>
+					<li><a href="">男装</a></li>
+					<li><a href="">鞋包配饰</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</header>
+	
+	<!-- 内容栏分为两栏布局 -->
+	<section id="content">
+		<div class="left">
+			<h3><span>商品分类</span></h3>
+			<div class="goodslist">
+				<h4>推荐品牌</h4>
+				<table>
+					<tr>
+						<td><a href="">耐克</a></td>
+						<td class="hot"><a href="">阿迪达斯<sup>HOT</sup></a></td>
+					</tr>
+					<tr>
+						<td><a href="">达芙妮</a></td>
+						<td><a href="">李宁</a></td>
+					</tr>
+					<tr>
+						<td><a href="">安踏</a></td>
+						<td><a href="">奥康</a></td>
+					</tr>
+					<tr>
+						<td class="hot"><a href="">骆驼<sup>HOT</sup></a></td>
+						<td><a href="">特步</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="goodslist">
+				<h4>女装</h4>
+				<table>
+					<tr>
+						<td><a href="">呢大衣</a></td>
+						<td><a href="">T恤</a></td>
+					</tr>
+					<tr>
+						<td><a href="">羽绒服</a></td>
+						<td><a href="">衬衫</a></td>
+					</tr>
+					<tr>
+						<td><a href="">羊绒衫</a></td>
+						<td><a href="">针织衫</a></td>
+					</tr>
+					<tr>
+						<td><a href="">连衣裙</a></td>
+						<td><a href="">皮外套</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="goodslist">
+				<h4>男装</h4>
+				<table>
+					<tr>
+						<td class="hot"><a href="shirt.php">衬衫<sup>CLICK</sup></a></td>
+						<td><a href="">T恤</a></td>
+					</tr>
+					<tr>
+						<td><a href="">夹克</a></td>
+						<td><a href="">皮衣</a></td>
+					</tr>
+					<tr>
+						<td><a href="">风衣</a></td>
+						<td><a href="">牛仔裤</a></td>
+					</tr>
+					<tr>
+						<td><a href="">西服</a></td>
+						<td><a href="">卫衣</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="goodslist">
+				<h4>鞋包配饰</h4>
+				<table>
+					<tr>
+						<td><a href="">围巾</a></td>
+						<td><a href="">旅行箱</a></td>
+					</tr>
+					<tr>
+						<td><a href="">真皮包</a></td>
+						<td><a href="">韩版</a></td>
+					</tr>
+					<tr>
+						<td><a href="">达芙妮</a></td>
+						<td><a href="">单肩包</a></td>
+					</tr>
+					<tr>
+						<td><a href="">毛绒</a></td>
+						<td><a href="">清仓靴子</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- 右边栏分为上下两栏，上栏又分为左右两栏，下栏为一栏 -->
+		<div class="right">
+			<div class="top">
+				<div class="topleft">
+					<!-- 轮播图 -->
+					<div class="imagewindow">
+						<img src="images/ads.jpg" alt="ads images" id="ads">
+					</div>
+					<ul id="imageads">
+						<li><a href=""><p>新款上线</p><p>全场357元起</p></a></li>
+						<li><a href=""><p>相约情人节</p><p>全场119元起</p></a></li>
+						<li><a href=""><p>愤怒小鸟特卖</p><p>全场89元</p></a></li>
+						<li><a href=""><p>春季新品发布</p><p>全场4折起</p></a></li>
+						<li><a href=""><p>男鞋促销第一</p><p>全场3折起</p></a></li>
+					</ul>
+				</div>
+				<div class="topright">
+					<div class="sales">
+						<img src="images/sales.jpg" alt="皮鞋专场2折起">
+					</div>
+					<div class="latest">
+						<h5>最新动态</h5>
+						<ul>
+							<li><a href="">[活动]伊伴春鞋迎春大促</a></li>
+							<li><a href="">[活动]千百度冬靴新品火热让利</a></li>
+							<li><a href="">[活动]COEY秋冬新品全场2折起</a></li>
+							<li><a href="">[活动]伊伴春鞋迎春大促</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<h4>品牌活动</h4>
+				<ul class="shoeskind" id="shoecard">
+					<li>运动</li>
+					<li>女鞋</li>
+					<li>男鞋</li>
+					<li>童鞋</li>
+				</ul>
+				<div class="shoespic" id="shoespic">
+					<ul>
+						<li><a href="#"><img src="images/shoesforsports/nike.jpg" alt="nike耐克"><p>耐克</p></a></li>
+						<li><a href="#"><img src="images/shoesforsports/adidas.jpg" alt="adidas阿迪达斯"><p>阿迪达斯</p></a></li>
+						<li><a href="#"><img src="images/shoesforsports/lining.png" alt="李宁"><p>李宁</p></a></li>
+						<li><a href="#"><img src="images/shoesforsports/anta.png" alt="安踏"><p>安踏</p></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<p>Copyright &copy; 2009 - 2012 JaneShop Inc.</p>
+	</footer>
+	<script src="scripts/utils.js"></script>
+	<script src="scripts/cardShow.js"></script>
+	<script src="scripts/imageScroll.js"></script>
+	<script src="scripts/skin.js"></script>
+	<script src="scripts/highLight.js"></script>
+	<script src="scripts/indexInit.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>

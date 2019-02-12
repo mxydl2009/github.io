@@ -1,0 +1,85 @@
+hr {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+/*表格样式*/
+table tr td:first-child {
+	width: 110px;
+	padding: 2px 5px;
+	vertical-align: top;
+}
+/*内容部分样式*/
+#content {
+	background-color: #eee;
+	width: 960px;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+	font-size: 1.2em;
+	height: 830px;
+	color: #111;
+	background: #ccc;
+}
+/*左边栏样式*/
+#left {
+	background-color:#36648B;
+	width: 260px;
+	height: 830px;
+	float: left;
+	color: #F2F2F2;
+	overflow: hidden;
+}
+
+#left div.content {
+	padding-left: 10px;
+}
+#lefthead {
+	width: 150px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	font-size: 1.5em;
+}
+#lefthead h5 {
+	width: 150px;
+	margin: 10px auto 0px auto;
+}
+.content {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.content strong {
+	margin-left: 10px;
+}
+.content table {
+	width: 230px;
+}
+/*右边栏样式*/
+#right {
+	margin-left: 270px;
+}
+#right hr {
+	border: 1px solid #666;
+}
+#right table {
+	width: 100%;
+}
+#right table td {
+	line-height: 24px;
+}
+.inline {
+	float: left;
+	margin-right: 60px;
+}
+.edu {
+	overflow: hidden;
+}
+/*页脚样式*/
+footer {
+	color: #999;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 30px;
+	font-family: font-family: "Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+}

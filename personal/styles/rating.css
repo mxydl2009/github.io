@@ -1,0 +1,14 @@
+/*打分星星样式表*/
+#goods_grade li {
+	float: left;
+	margin-right: 1px;
+	line-height: 25px;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	background-color: #ededed;
+	cursor: pointer;
+}
+#goods_grade li.on {
+	background-color: #EE7600;
+}

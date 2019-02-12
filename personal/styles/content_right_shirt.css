@@ -1,0 +1,140 @@
+/*首页右边栏样式表*/
+.right {
+	width: 788px;
+	height: 570px;
+	margin: 10px auto 10px 190px;
+	position: relative;
+}
+/*右边栏左半部分样式表*/
+div#brower {
+	width: 312px;
+	margin-right: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#goods_img {
+	border: 1px dotted grey;
+	margin-bottom: 20px;
+}
+#goods_smallimg {
+	padding: 10px 0px 10px 10px;
+}
+#goods_smallimg li {
+	width: 85px;
+	height: 85px;
+	display: inline-block;
+	border: 1px dotted grey;
+	margin-right: 10px;
+}
+
+#introcard {
+	width: 300px;
+	height: 25px;
+	margin: 10px 0 0px 0;
+}
+#introcard li {
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+	margin-right: 5px;
+	border: 1px dotted grey;
+	border-bottom: none;
+	text-align: center;
+	line-height: 25px;
+	background-color: #EDEDED;
+}
+#introcontent {
+	line-height: 20px;
+	border: 1px dotted grey;
+	padding: 5px;
+}
+
+/*右边栏右半部分样式表*/
+.shopping {
+	width: 448px;
+	height: 570px;
+	position: absolute;
+	right: 0px;
+	padding-top: 5px;
+}
+.shopping h4 {
+	margin-bottom: 10px;
+}
+.shopping > p {
+	line-height: 20px;
+	font-size: 0.9em;
+}
+#goods_info {
+	margin-top: 10px;
+}
+#goods_info div.tablerow {
+	width: 300px;
+	height: 30px;
+	overflow: hidden;
+}
+#goods_info div.trleft {
+	width: 70px;
+	height: 30px;
+	text-align: justify;
+	padding-right: 20px;
+	float: left;
+}
+#goods_info div.trright {
+	width: 200px;
+	height: 30px;
+	float:left;
+}
+#price {
+	text-decoration: line-through;
+}
+#goods_info div.trleft span {
+	width: 100%;
+	display: inline-block;
+}
+#goods_info ul.tablerow {
+	width: 300px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+#goods_info #number {
+	width: 42px;
+	height: 20px;
+}
+#goods_info li.color, li.size {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	border: 1px dotted grey;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 10px;
+	box-shadow: 1px 1px lightgrey;
+	background-color: #E8E8E8;
+}
+#goods_grade {
+	width: 150px;
+	height: 30px;
+	cursor: pointer;
+}
+#shopmart {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#shoppingsubmit {
+	width: 90px;
+	height: 28px;
+	border: 0px solid grey;
+	border-radius: 3px;
+	background-image: url(../images/btn_cart.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+li.color, li.size {
+	cursor: pointer;
+}
+.delete {
+	text-decoration: line-through;
+}

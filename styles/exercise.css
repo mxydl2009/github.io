@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	/*height: 100%;*/
+	/*overflow: hidden;*/
+}
+body {
+	font-size: 12px;
+	height: 100%;
+	background: linear-gradient(#333333, black) no-repeat;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/*导航栏样式*/
+nav {
+	width: 960px;
+	height: 60px;
+	margin: 10px auto 0 auto;
+	/*background: #333333;*/
+	background: black;
+	color: white;
+	/*font-family: Myriad Pro, 宋体, 黑体;*/
+	overflow: hidden;
+}
+nav li {
+	width: 80px;
+	height: 35px;
+	display: inline-block;
+	padding: 15px 20px 10px 20px;
+	text-align: center;
+	line-height: 35px;
+}
+nav a {
+	color: #D3D3D3;
+	font-size: 1.5em;
+	font-family: "Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+}
+.active {
+	background: #B8860B;
+}
+.highlight {
+	background: #4B0082;	
+}
+/*主内容区样式*/
+#content {
+	width: 960px;
+	height: 640px;
+	margin: auto;
+	/*background: radial-gradient(#CCCCCC, #999999, #333333);*/
+	background: linear-gradient(#111, #333);
+	/*background-image: url('../images/1.jpg') no-repeat;*/
+	position: relative;
+	color: #D3D3D3;
+}
+#content ul a {
+	color: #D3D3D3;
+	font-size: 1.5em;
+	font-family: "Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+}
+#container {
+	width: 773px;
+	height: 513px;
+	position: relative;
+	top: 30px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+#mask {
+	width: 773px;
+	height: 513px;
+	position: absolute;
+	z-index: 6;
+	opacity: 0.6;
+	background: #333;
+	color: white;
+}
+#label {
+	color: #ddd;
+	font-size: 1.5em;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	margin: 0px auto;
+}
+#label button {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: #ccc;
+	font-size: 1.2em;
+}
+
+#btn1 {
+	left: 464px;
+}
+#btn2 {
+	left: 464px;
+	display: none;
+}
+#container a {
+	position: absolute;
+}
+#picwall {
+	left: 0px;
+	top: 0px;
+}
+#shoppingMall {
+	left: 773px;
+	top: 0px;
+}

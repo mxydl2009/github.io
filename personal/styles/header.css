@@ -1,0 +1,110 @@
+/*首部样式表*/
+header {
+	background: linear-gradient(to bottom, #e8e8e8, #f5f5f5);
+	vertical-align: middle;
+	width: 100%;
+	height: 102px;
+}
+.headcontent {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+header img {
+	width: 158px;
+	height: 59px;
+}
+#logo {
+	float: left;
+}
+header a {
+	display: inline-block;
+}
+header form {
+	width: 500px;
+	height: 32px;
+	margin: auto 15px auto 180px;
+	padding-top:15px; 
+	position: relative;
+}
+#searchbox {
+	/*border: 1px solid grey;*/
+	width: 490px;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+header select {
+	width: 70px;
+	height: 25px;
+	border: 0;
+	position: absolute;
+	top: 0px;
+}
+header input#search {
+	width: 410px;
+	height: 25px;
+	padding: 0;
+	border: 0;
+	position: absolute;
+	top: 0px; 
+	left: 72px;
+	/*border-left: 1px solid;*/
+}
+header div#submit {
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	/*border: 2px solid grey;*/
+	/*box-shadow: 2px 2px;*/
+	right: 3px;
+	top: 0px;
+	background-image: url('../images/search.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#skin {
+	/*float: right;*/
+	width: 120px;
+	height: 16px;
+	position: absolute;
+	right: -25px;
+	bottom: 50px;
+	/*margin: 20px 5px auto auto;*/
+}
+
+#skin li {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid lightgrey;
+	cursor: pointer;
+/*	background-color: green;*/
+	/*background-image: url(../images/checked.jpg);*/
+}
+
+nav {
+	clear: both;
+	width: 980px;
+	height: 40px;
+	font-size: 1.1em;
+	background-color: #3b3b3b;
+	position: relative;
+}
+#nav {
+	width: 400px;
+	height: 18px;
+	position: absolute;
+	top: 11px;
+	left: 30px;
+}
+#nav a {
+	font-family: STHeiti, Helvetica;
+	font-weight: bold;
+	color: #fff;
+}
+#nav li {
+	margin-right: 20px;
+}

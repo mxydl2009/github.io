@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>马兴原WebHome</title>
-	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/exercise.css">
 </head>
 <body>
 	<header>
@@ -17,21 +17,27 @@
 				<li><a href="contact">CONTACT</a></li>
 			</ul>
 		</nav>
+		
 	</header>
 	<main id="content">
-		<img src="images/indexImg.jpg" alt="" id="indexImg">
-		<div id="mask"></div><!-- 页面加载完添加mask,当点击button按钮时，取消mask； -->
-		<div class="into" id="prewords">
-			<p><span>Explore My World</span>
-			<button id="go">>></button></p>
+		<div id="container">
+			<div id="mask">
+				<a href="picwall.html" id="picwall"><img src="images/picwall.jpg" alt=""></a>
+				<a href="personal/shopping.html" id="shoppingMall"><img src="images/shoppingMall.jpg" alt=""></a>
+			</div>
+			
 		</div>
-		<div class="into" id="begin">
-			<p>Ok, Let's Go</p>
+		<div id="label">
+			<h1>照片墙</h1>
+			<button id="btn1">></button>
+			<button id="btn2"><</button>
 		</div>
+		
 	</main>
 	<footer>
-		copyright @ 马兴原 2019
+		copyright@马兴原 2019
 	</footer>
 	<script src="scripts/main.js"></script>
+	<script src="scripts/exercise.js"></script>
 </body>
 </html>
